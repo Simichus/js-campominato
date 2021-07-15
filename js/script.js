@@ -34,6 +34,8 @@ do {
     } else {
         alert('Valore inserito non corretto o già presente');
     }
-} while (userChoices.length <= 100 - 16)
+} while (userChoices.length < 100 - 16)
 
 console.log('Punteggio:', score);
+
+alert('Il tuo punteggio è: ' + score);
